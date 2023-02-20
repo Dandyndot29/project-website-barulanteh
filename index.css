@@ -1,5 +1,10 @@
 .navbar {
     background-color: rgb(238, 255, 255);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 16;
 }
 
 .nav-item {
@@ -16,6 +21,12 @@
 
 }
 
+.carousel-caption H1 {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
 .carousel-caption H4 {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -24,4 +35,43 @@
 
 .berita h2 {
     text-align: center;
+}
+
+/*Footer*/
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.form-control {
+    background: #212529;
+    border-color: #545454;
+}
+
+.form-control:focus {
+    background: #212529;
+}
+
+footer {
+    background: #212529;
+}
+
+
+/* ==========================================
+      CUSTOM UTILS CLASSES
+    ========================================== */
+body,
+html {
+    height: 100%;
 }
