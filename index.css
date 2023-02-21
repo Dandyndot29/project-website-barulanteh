@@ -11,9 +11,11 @@
     margin-right: 1cm;
 }
 
+
 .carousel-caption {
     padding-bottom: 5cm;
 }
+
 
 .carousel-caption H1 {
     color: white;
@@ -36,8 +38,6 @@
 .berita h2 {
     text-align: center;
 }
-
-/*Footer*/
 
 .text-small {
     font-size: 0.9rem;
