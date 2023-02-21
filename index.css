@@ -1,10 +1,14 @@
 .navbar {
-    background-color: rgb(238, 255, 255);
+    background-color: rgba(211, 203, 203, 0.7);
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
     z-index: 16;
+}
+
+.nav-link {
+    font-weight: bolder;
 }
 
 .nav-item {
