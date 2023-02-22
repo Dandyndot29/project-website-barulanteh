@@ -19,10 +19,10 @@
 }
 
 
-/*CAROUSEL ITEM*/
 
+/*carousel */
 .c-item {
-    height: 600px;
+    height: 420px;
 }
 
 .c-img {
@@ -56,23 +56,7 @@
 }
 
 
-
-.berita h2 {
-    text-align: center;
-}
-
-
-.divider {
-    width: 300px;
-    height: 5px;
-    background-color: seagreen;
-    display: inline-block;
-}
-
-/*contact*/
-
-
-
+/* pagination*/
 
 /*footer*/
 
