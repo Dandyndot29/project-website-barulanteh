@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgb(238, 255, 255);
+    background-color: rgba(211, 203, 203, 0.7);
     position: fixed;
     left: 0;
     right: 0;
@@ -7,13 +7,20 @@
     z-index: 16;
 }
 
+.nav-link {
+    font-weight: bolder;
+}
+
 .nav-item {
     margin-right: 1cm;
 }
 
+
 .carousel-caption {
     padding-bottom: 5cm;
 }
+
+
 
 .carousel-caption H1 {
     color: white;
@@ -33,11 +40,18 @@
 
 }
 
+
+
 .berita h2 {
     text-align: center;
 }
 
-/*Footer*/
+/*contact*/
+
+
+
+
+/*footer*/
 
 .text-small {
     font-size: 0.9rem;
