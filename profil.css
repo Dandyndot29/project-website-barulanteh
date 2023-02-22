@@ -1,0 +1,13 @@
+.profil-content {
+  margin-top: 5%;
+  color: black;
+}
+
+.profil-content h1 {
+  text-align: center;
+}
+
+.profil-content p {
+  text-align: justify;
+  padding: 0 20%;
+}

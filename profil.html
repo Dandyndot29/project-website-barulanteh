@@ -5,12 +5,72 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <title>Profil</title>
-  <link rel="icon" type="image/x-icon" href="/images/logoPBL.png">
+  <link rel="icon" type="image/x-icon" href="/images/logopbl1.png">
+  <link rel="stylesheet" href="/profil.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 </head>
 
 <body>
-  <a>haiii</a>
+
+  <!-- HEADER -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html"><img src="./images/logoPBL.png" width="250px" height="70px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Profile
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Sejarah</a></li>
+              <li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
+              <li><a class="dropdown-item" href="#">Visi Misi</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Media
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Berita</a></li>
+              <li><a class="dropdown-item" href="#">Galeri Kegiatan</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENT-->
+  <div class="profil-content">
+    <h1>SEJARAH PERUMDAM BATULANTEH</h1>
+    <p>Perusahaan Daerah Air Minum Kabupaten Sumbawa berdiri sejak tahun 1992 berdasarkan Peraturan Daerah Kabupaten
+      Sumbawa Nomor 4 Tahun 1992 tanggal 6 Juni 1992 tentang Pendirian Perusahaan Daerah Air Minum Kabupaten Dati II
+      Sumbawa .</p>
+  </div>
+
 </body>
 
 </html>
